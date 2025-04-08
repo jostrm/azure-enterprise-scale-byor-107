@@ -27,7 +27,7 @@
             "value": false
         },
         "serviceSettingDeployCosmosDB": {
-            "value": true
+            "value": false
         },
         "serviceSettingDeployAzureOpenAI": {
             "value": false
