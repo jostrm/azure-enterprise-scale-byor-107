@@ -24,13 +24,13 @@
             "value": true
         },
         "serviceSettingDeployBingSearch": {
-            "value": false
+            "value": true
         },
         "serviceSettingDeployCosmosDB": {
-            "value": false
+            "value": true
         },
         "serviceSettingDeployAzureOpenAI": {
-            "value": false
+            "value": true
         },
         "serviceSettingDeployAzureAIVision": {
             "value": false
