@@ -105,7 +105,7 @@ for env in "${environments[@]}"; do
     create_or_update_variable $env "COMMON_SERVICE_PRINCIPAL_KV_S_NAME_APPID" "$COMMON_SERVICE_PRINCIPAL_KV_S_NAME_APPID"
     create_or_update_variable $env "COMMON_SERVICE_PRINCIPAL_KV_S_NAME_SECRET" "$COMMON_SERVICE_PRINCIPAL_KV_S_NAME_SECRET"
 
-    # Networking
+    # Location
     create_or_update_variable $env "AIFACTORY_LOCATION_SHORT" "$AIFACTORY_LOCATION_SHORT"
     
     # Project specific settings, for all environments
@@ -117,7 +117,7 @@ for env in "${environments[@]}"; do
     create_or_update_variable $env "PROJECT_SERVICE_PRINCIPAL_KV_S_NAME_S" "$PROJECT_SERVICE_PRINCIPAL_KV_S_NAME_S"
 
     # Misc
-    create_or_update_variable $env "RUN_JOB1_NETWORKING" "true"
+    create_or_update_variable $env "RUN_JOB1_NETWORKING" "$RUN_JOB1_NETWORKING"
 
     # Global: Secrets
     create_or_update_secret $env "AIFACTORY_SEEDING_KEYVAULT_SUBSCRIPTION_ID" "$AIFACTORY_SEEDING_KEYVAULT_SUBSCRIPTION_ID"
