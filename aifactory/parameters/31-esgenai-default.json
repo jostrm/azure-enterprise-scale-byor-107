@@ -12,25 +12,25 @@
             "value": false
         },
         "serviceSettingDeployFunction": {
-            "value": true
+            "value": false
         },
         "serviceSettingDeployWebApp": {
-            "value": true
+            "value": false
         },
         "serviceSettingDeployContainerApps": {
-            "value": true
+            "value": false
         },
         "serviceSettingDeployAppInsightsDashboard": {
-            "value": true
+            "value": false
         },
         "serviceSettingDeployBingSearch": {
-            "value": true
+            "value": false
         },
         "serviceSettingDeployCosmosDB": {
-            "value": true
+            "value": false
         },
         "serviceSettingDeployAzureOpenAI": {
-            "value": true
+            "value": false
         },
         "serviceSettingDeployAzureAIVision": {
             "value": false
