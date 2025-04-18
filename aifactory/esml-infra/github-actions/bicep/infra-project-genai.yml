@@ -19,7 +19,7 @@ env:
   admin_bicep_kv_fw: "${{ vars.AIFACTORY_SEEDING_KEYVAULT_NAME }}" # seeding keyvault, name
   admin_bicep_kv_fw_rg: "${{ vars.AIFACTORY_SEEDING_KEYVAULT_RG }}" #seeding keyvault, resource group
   admin_aifactorySuffixRG: "${{ vars.AIFACTORY_SUFFIX }}" #"-002"
-  admin_aifactoryPrefixRG: "${{ vars.AIFACTORY_PREFIX }}" # <company>-<aifactoryname> Examples: ["acme-ai-", "mrvel-1-", "contoso-", "ms-ai-"]
+  admin_aifactoryPrefixRG: "${{ vars.AIFACTORY_PREFIX }}" # <company>-<aifactoryname> Examples: ["acme-ai-", "mrvel-1-", "contoso-", "ms-ai-"] 
   common-sp-appid-seeding-kv-name: "${{ vars.COMMON_SERVICE_PRINCIPAL_KV_S_NAME_APPID}}" # "esml-common-bicep-sp-id"
   common-sp-secret-seeding-kv-name: "${{ vars.COMMON_SERVICE_PRINCIPAL_KV_S_NAME_SECRET}}" # "esml-common-bicep-sp-secret"
   admin_hybridBenefit: false # Enable Hybrid Benefits if provisioning VM access via Bastion
