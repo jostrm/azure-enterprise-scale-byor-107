@@ -30,7 +30,7 @@
             "value": true
         },
         "serviceSettingDeployAzureOpenAI": {
-            "value": true
+            "value": false
         },
         "serviceSettingDeployAzureAIVision": {
             "value": false
