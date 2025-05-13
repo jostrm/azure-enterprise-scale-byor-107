@@ -42,7 +42,7 @@
             "value": false
         },
         "serviceSettingEnableAIFoundryPreview": {
-            "value": true
+            "value": false
         },
         "disableContributorAccessForUsers": {
             "value": true
